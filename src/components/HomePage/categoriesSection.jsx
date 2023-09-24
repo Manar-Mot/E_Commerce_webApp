@@ -35,7 +35,7 @@ const CategoriesSection = () => {
           </div>
         ))}
       </div>
-      {/* <div className=" flex  w-full  md:hidden md:animate-none  animate-marquee2-infinite ">
+      <div className=" flex  w-full  md:hidden md:animate-none  animate-marquee2-infinite ">
         {categories.map((category) => (
           <div
             className="flex flex-col text-center items-center group justify-center text-gray-300 transition-all ease-linear duration-300 hover:text-pink-300 px-5 cursor-pointer "
@@ -49,7 +49,7 @@ const CategoriesSection = () => {
             <h2 className={`text-xs md:text-4xs`}>{category.name}</h2>
           </div>
         ))}
-      </div> */}
+      </div>
     </section>
   );
 };
