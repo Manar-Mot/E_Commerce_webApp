@@ -41,19 +41,19 @@ const Header = () => {
 
   return (
     <header className="max-w-[1400px] h-[60vh] w-full  relative group ">
-      <div className="  w-full h-full flex align-middle justify-start items-center relative bg-right md:bg-center bg-cover md:bg-cover bg-blue-100 duration-500">
+      <div className="  w-full h-full flex align-middle justify-start items-center md:items-end  relative bg-right md:bg-center bg-cover md:bg-cover bg-blue-100 duration-500">
         <img
           src={slides[currentIndex].url}
           alt="base slide"
-          className="absolute top-0 w-full h-auto  "
+          className="absolute top-0 md:w-full md:h-auto h-[100%] w-auto  "
         />
-        <div className=" z-50 flex flex-col justify-end items-center  mx-[20px]">
-          <h4 className="md:text-4xl font-bold text-xl text-center mb-4 animate__fadeIn leading-loose  max-w-[500px]">
+        <div className=" z-50 flex flex-col  max-w-[33%] mx-[20px] ">
+          <h4 className="md:text-4xl font-bold text-lg text-center mb-4 animate__fadeIn leading-loose ">
             {slides[currentIndex].description}
           </h4>
           <a
             href="/buy-now"
-            className="bg-gradient-to-r from-purple-700 via-purple-500 to-light-pink-purple  text-center transition-all duration-200 ease-linear hover:bg-gradient-to-l  hover:p-3 w-[150px] text-white font-bold py-2 px-4 rounded-lg shadow-inner animate__fadeIn"
+            className="mx-auto bg-gradient-to-r from-purple-700 via-purple-500 to-light-pink-purple  text-center transition-all duration-200 ease-linear hover:bg-gradient-to-l  hover:p-3   md:hover:p-3  w-[100px] md:w-[150px]  text-sm md:text-lg text-white font-bold py-2 px-2 rounded-lg shadow-inner animate__fadeIn"
           >
             اشتري الآن
           </a>
