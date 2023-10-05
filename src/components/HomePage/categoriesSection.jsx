@@ -46,7 +46,7 @@ const CategoriesSection = () => {
         </span>
         <ul
           className={`absolute top-[60px] z-[999] transition-all ease-in-out duration-300 right-0 ${
-            isDropdownOpen ? " max-h-80" : "top-0 max-h-0 "
+            isDropdownOpen ? " max-h-80" : "-top-[100px] max-h-0 "
           } bg-white w-[250px] md:w-full   rounded-lg shadow-md overflow-hidden`}
         >
           {categories.map((category) => (
