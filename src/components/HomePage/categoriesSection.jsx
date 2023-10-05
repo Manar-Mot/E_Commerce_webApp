@@ -93,7 +93,7 @@ const CategoriesSection = () => {
           <Link
             to="/"
             className={`
-         after:transition-all after:ease-linear  after:duration-400  group-hover:after:content-[''] group-hover:after:absolute group-hover:after:bottom-0 group-hover:after:left-0 after:w-0 group-hover:after:w-full group-hover:after:h-0.5 group-hover:after:bg-yellow-400 `}
+         after:transition-all after:ease-linear   after:duration-500  group-hover:after:content-[''] group-hover:after:absolute group-hover:after:bottom-0 group-hover:after:left-0 after:w-0 group-hover:after:w-full group-hover:after:h-0.5 group-hover:after:bg-yellow-400 `}
           >
             الرئيسية
           </Link>
@@ -102,7 +102,7 @@ const CategoriesSection = () => {
           <Link
             to="/store"
             className={`
-         after:transition-all after:ease-linear  after:duration-600  group-hover:after:content-[''] group-hover:after:absolute group-hover:after:bottom-0 group-hover:after:left-0 after:w-0 group-hover:after:w-full group-hover:after:h-0.5 group-hover:after:bg-yellow-400 `}
+         after:transition-all after:ease-linear  after:duration-500  group-hover:after:content-[''] group-hover:after:absolute group-hover:after:bottom-0 group-hover:after:left-0 after:w-0 group-hover:after:w-full group-hover:after:h-0.5 group-hover:after:bg-yellow-400 `}
           >
             المتجر
           </Link>
@@ -111,7 +111,7 @@ const CategoriesSection = () => {
           <Link
             to="/about"
             className={`
-         after:transition-all after:ease-linear  after:duration-600  group-hover:after:content-[''] group-hover:after:absolute group-hover:after:bottom-0 group-hover:after:left-0 after:w-0 group-hover:after:w-full group-hover:after:h-0.5 group-hover:after:bg-yellow-400 `}
+         after:transition-all after:ease-linear  after:duration-500  group-hover:after:content-[''] group-hover:after:absolute group-hover:after:bottom-0 group-hover:after:left-0 after:w-0 group-hover:after:w-full group-hover:after:h-0.5 group-hover:after:bg-yellow-400 `}
           >
             حول
           </Link>
@@ -120,7 +120,7 @@ const CategoriesSection = () => {
           <Link
             to="/contact"
             className={`
-         after:transition-all after:ease-linear  after:duration-600  group-hover:after:content-[''] group-hover:after:absolute group-hover:after:bottom-0 group-hover:after:left-0 after:w-0 group-hover:after:w-full group-hover:after:h-0.5 group-hover:after:bg-yellow-400 `}
+         after:transition-all after:ease-linear  after:duration-500  group-hover:after:content-[''] group-hover:after:absolute group-hover:after:bottom-0 group-hover:after:left-0 after:w-0 group-hover:after:w-full group-hover:after:h-0.5 group-hover:after:bg-yellow-400 `}
           >
             اتصل بنا
           </Link>
@@ -129,7 +129,7 @@ const CategoriesSection = () => {
           <Link
             to="/blog"
             className={`
-         after:transition-all after:ease-linear  after:duration-600  group-hover:after:content-[''] group-hover:after:absolute group-hover:after:bottom-0 group-hover:after:left-0 after:w-0 group-hover:after:w-full group-hover:after:h-0.5 group-hover:after:bg-yellow-400 `}
+         after:transition-all after:ease-linear  after:duration-500  group-hover:after:content-[''] group-hover:after:absolute group-hover:after:bottom-0 group-hover:after:left-0 after:w-0 group-hover:after:w-full group-hover:after:h-0.5 group-hover:after:bg-yellow-400 `}
           >
             المدونة
           </Link>
