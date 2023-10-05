@@ -10,7 +10,7 @@ import { HiOutlineDotsCircleHorizontal } from "react-icons/hi";
 import { BsMouse3 } from "react-icons/bs";
 import { HiBars3BottomRight, HiMiniXMark } from "react-icons/hi2";
 import SearchComponent from "./searchComp";
-import { Link } from "react-router-dom"; // استيراد الـ Link من react-router-dom
+import { Link } from "react-router-dom";
 
 const categories = [
   { id: 1, name: "موبايلات", icon: HiMiniDevicePhoneMobile },
@@ -42,11 +42,11 @@ const CategoriesSection = () => {
       >
         <HiBars3BottomRight className="mx-2 text-2xl" />
         <span className="hidden md:block md:text-2xs">
-          <Link to="/">كل الفئات</Link> {/* استخدام Link بدلاً من <a> */}
+          <Link to="/">كل الفئات</Link>
         </span>
         <ul
           className={`absolute top-[60px] z-[999] transition-all ease-in-out duration-300 right-0 ${
-            isDropdownOpen ? " max-h-80" : "-top-[100px] max-h-0 "
+            isDropdownOpen ? " max-h-80" : "top-[0] max-h-0 "
           } bg-white w-[250px] md:w-full   rounded-lg shadow-md overflow-hidden`}
         >
           {categories.map((category) => (
@@ -79,7 +79,7 @@ const CategoriesSection = () => {
 
       <ul
         className={`${
-          showMenue ? "h-[100vh]" : "h-0 -top-40"
+          showMenue ? "h-[100vh]" : "h-0 -top-[100px]"
         }  md:flex fixed  flex  transition-all duration-300 ease-linear top-0 left-0 text-black md:text-white bg-white md:bg-transparent md:static  md:mx-10 flex-col md:flex-row  z-[999]  md:h-auto justify-around items-center w-full md:w-3/5 text-lg `}
       >
         <HiMiniXMark
