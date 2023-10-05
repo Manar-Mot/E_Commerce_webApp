@@ -3,6 +3,7 @@ import Navbar from "../components/HomePage/Navbar";
 import Header from "../components/HomePage/header";
 import TopBar from "../components/HomePage/topBar";
 import CategoriesSection from "../components/HomePage/categoriesSection";
+import UniqueProducts from "../components/HomePage/UniqueProducts";
 const HomePage = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const HomePage = () => {
       <CategoriesSection />
 
       <Header />
+      <UniqueProducts />
     </>
   );
 };

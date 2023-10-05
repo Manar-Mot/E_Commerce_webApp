@@ -39,12 +39,19 @@ module.exports = {
         kufi: ["Noto Kufi Arabic", "sans"],
         cairo: ["Cairo", "sans"],
       },
+      boxShadow: {
+        cardShadow: "rgba(0, 0, 0, 0.09) 0px 3px 12px",
+      },
+      transitionProperty: {
+        height: "height",
+      },
       colors: {
         light: {
           background: "#ffffff",
           primary: "##237bbf",
           "primary-varient": "#3700b3",
           "pink-purple": "#df82fc",
+          "btn-primary": "#a655f3",
           secondary: "#03dac6",
           error: "#b00020",
         },
