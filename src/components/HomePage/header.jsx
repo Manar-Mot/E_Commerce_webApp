@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import slider1 from "../../assets/images/img3.png";
 import slider2 from "../../assets/images/s2.webp";
 import slider3 from "../../assets/images/s3.webp";
 import background from "../../assets/images/new2.webp";
@@ -57,11 +56,6 @@ const Header = () => {
             اشتري الآن
           </a>
         </div>
-        {/* <img
-          src={slides[currentIndex].url}
-          alt="base slide"
-          className=" h-[90%] w-auto  "
-        /> */}
       </div>
     </header>
   );
